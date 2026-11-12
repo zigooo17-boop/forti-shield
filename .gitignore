@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Never commit real device configs, keys or credentials
+*.key
+*.pem
+*.psk
+secrets*
