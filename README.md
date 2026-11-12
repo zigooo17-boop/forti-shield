@@ -4,7 +4,7 @@
 
 FortiShield simulates a real-world enterprise: a **Main Branch** with a segmented core (Management / Data / Voice VLANs and a DMZ) and **three remote branches** connected through the internet with **IPsec site-to-site VPN**, centralized DHCP, captive-portal authentication, and traffic logging.
 
-![Network Topology](assets/screenshots/01-topology.png)
+![Network Topology](01-topology.png)
 
 ---
 
@@ -117,29 +117,29 @@ A **Core Switch** connects the MGMT, Data, and Voice access switches. The **DMZ*
 ## 📸 Screenshots
 
 ### Network topology
-![Topology](assets/screenshots/01-topology.png)
+![Topology](01-topology.png)
 
 ### IPsec VPN
 | Tunnel settings | Wizard: policy & routing |
 |---|---|
-| ![IPsec tunnel](assets/screenshots/02-ipsec-tunnel-settings.png) | ![VPN wizard policy](assets/screenshots/03-vpn-wizard-policy-routing.png) |
+| ![IPsec tunnel](02-ipsec-tunnel-settings.png) | ![VPN wizard policy](03-vpn-wizard-policy-routing.png) |
 
-![VPN wizard summary](assets/screenshots/04-vpn-wizard-summary.png)
+![VPN wizard summary](04-vpn-wizard-summary.png)
 
 ### Monitoring & authentication
 | Forward traffic logs | Captive portal |
 |---|---|
-| ![Forward traffic](assets/screenshots/05-forward-traffic-logs.png) | ![Captive portal](assets/screenshots/06-captive-portal-auth.png) |
+| ![Forward traffic](05-forward-traffic-logs.png) | ![Captive portal](06-captive-portal-auth.png) |
 
 ### Connectivity tests
-![Ping test](assets/screenshots/07-connectivity-ping-test.png)
+![Ping test](07-connectivity-ping-test.png)
 
 | Client web test (YouTube) | Client web test (Facebook) |
 |---|---|
-| ![YouTube test](assets/screenshots/08-client-web-test.png) | ![Facebook test](assets/screenshots/09-client-facebook-test.png) |
+| ![YouTube test](08-client-web-test.png) | ![Facebook test](09-client-facebook-test.png) |
 
 ### Windows host with VPN client
-![VPN client](assets/screenshots/10-vpn-client.png)
+![VPN client](10-vpn-client.png)
 
 ## 📁 Repository Structure
 
@@ -147,8 +147,7 @@ A **Core Switch** connects the MGMT, Data, and Voice access switches. The **DMZ*
 forti-shield/
 ├── README.md
 ├── .gitignore
-└── assets/
-    └── screenshots/      # lab screenshots used in this README
+└── 01-topology.png ... 10-vpn-client.png   # lab screenshots used in this README
 ```
 
 ## 🚀 Future Improvements
@@ -162,7 +161,7 @@ forti-shield/
 ## 👤 Author
 
 **Your Name**
-GitHub: [Yahia mohamed](https://github.com/zigooo17-boop)
+GitHub: [@your-username](https://github.com/your-username)
 
 ---
 
